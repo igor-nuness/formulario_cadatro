@@ -1,0 +1,15 @@
+h1{
+    display: flex;
+    justify-content: baseline;
+}
+
+h3{
+    display: flex;
+    justify-content: baseline;
+}
+
+button{
+    background-color: chartreuse;
+    border-radius: 5px;
+}
+

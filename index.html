@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <h3>Cadastro de login</h3>
+
+    <form method="get" action="/logar">
+        <input class="nome_sobrenome" type="text" name="nome" value="" id="nome" placeholder="Nome">
+        <input class="nome_sobrenome" type="text" name="sobrenome" value="" id="sobrenome" placeholder="Sobrenome">
+
+        <br>
+
+        <input type="email" name="email" value="" id="email" placeholder="ex: email@yahoo.com">
+        <input type="password" name="senha" value="" id="senha" placeholder=" Nova senha">
+        
+        <br>
+        <br>
+
+        <label>Data de Nascimento</label>
+        <select name="dia">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <select name="mes">
+            <option value="jan">Jan</option>
+            <option value="fev">Fev</option>
+            <option value="març">Março</option>
+            <option value="abril">Abril</option>
+            <option value="maio">Maio</option>
+        </select>
+        <select name="ano">
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label>Gênero</label>
+        <br>
+        <label for="masculino">Masculino</label>
+        <input id="masculino" type="radio" name="genero" value="masculino">
+
+        <label for="feminino">Feminino</label>
+        <input id="feminino" type="radio" name="genero" value="feminino">
+
+        <label for="Não-binário">Não-binário</label>
+        <input id="Não-binário" type="radio" name="genero" value="Não-binário"> 
+
+        <br>
+        <br>
+
+        <button type="submit">Cadastra-se</button>
+
+    </form>
+</body>
+</html>
